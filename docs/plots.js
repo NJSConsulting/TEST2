@@ -10,7 +10,7 @@ d3.json("data/data.json").then((importedData) => {
   });
 
   // Slice the first 10 objects for plotting
-  data = data.slice(0, 10);
+  data = data.slice(0, 5);
 
   // Reverse the array due to Plotly's defaults
   data = data.reverse();
